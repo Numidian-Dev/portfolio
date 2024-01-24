@@ -474,6 +474,43 @@ footer {
     }
 }
 
+article {
+    width: 70%;
+    margin: auto;
+    h1 {
+        color: #5e17eb;
+        text-align: center;
+        margin: 50px 0px 50px;
+    }
+    .acr {
+        text-align: center;
+        color: #858383;
+        font-size: 1rem;
+    }
+    h2 {
+        text-align: center;
+        color: #6935d2;
+        font-size: 0.9rem;
+        margin: 50px 0px 50px;
+    }
+    h3 {
+        color: #5e17eb;
+    }
+    p {
+        color: #858383;
+        margin: 20px 0px 20px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    ul {
+        margin-left: 50px;
+        li {
+            color: white;
+            line-height: 2;
+        }
+    }
+}
+
 @media screen and (min-width: 2033px) {
     .title-section {
         padding: 20px;
