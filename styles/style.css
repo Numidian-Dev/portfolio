@@ -254,8 +254,9 @@ header .openMenu {
   background-color: transparent;
   margin: 5px;
   padding-left: 10px;
+  color: white;
 }
-.container-form .container-input input:focus {
+l .container-form .container-input input:focus {
   outline: none;
 }
 .container-form textarea {
@@ -268,6 +269,7 @@ header .openMenu {
   background-color: transparent;
   padding-left: 10px;
   padding-top: 10px;
+  color: white;
 }
 .container-form textarea:focus {
   outline: none;

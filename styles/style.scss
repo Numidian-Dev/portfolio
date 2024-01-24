@@ -269,7 +269,8 @@ header {
             background-color: transparent;
             margin: 5px;
             padding-left: 10px;
-            &:focus {
+            color: white;
+            l &:focus {
                 outline: none;
             }
         }
@@ -285,6 +286,7 @@ header {
         background-color: transparent;
         padding-left: 10px;
         padding-top: 10px;
+        color: white;
 
         &:focus {
             outline: none;
