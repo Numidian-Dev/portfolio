@@ -10,6 +10,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .hero {
   width: 100%;
   height: 100vh;
@@ -141,6 +145,8 @@ header .openMenu {
   cursor: pointer;
   background: #5e17eb;
   box-shadow: 0px 10px 20px 0px rgba(94, 23, 235, 0.34);
+}
+.contact-btn a {
   color: white;
 }
 .contact-btn:hover {
@@ -157,6 +163,9 @@ header .openMenu {
   margin: 10px;
   cursor: pointer;
   background-color: white;
+  color: grey;
+}
+.about-btn a {
   color: grey;
 }
 .about-btn:hover {
@@ -646,10 +655,6 @@ footer .terms ul a:hover {
     margin: 5px;
     cursor: pointer;
   }
-  .contact-btn a {
-    text-decoration: none;
-    color: white;
-  }
   .about-btn {
     width: 100px;
     height: 40px;
@@ -659,10 +664,6 @@ footer .terms ul a:hover {
     font-weight: bold;
     margin: 5px;
     cursor: pointer;
-  }
-  .about-btn a {
-    text-decoration: none;
-    color: white;
   }
   .toDown {
     font-size: 3rem;
