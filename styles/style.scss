@@ -701,6 +701,11 @@ footer {
         font-weight: bold;
         margin: 5px;
         cursor: pointer;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
     }
     .contact-btn {
         @include btn-style();

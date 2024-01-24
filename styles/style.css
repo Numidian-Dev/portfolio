@@ -646,6 +646,10 @@ footer .terms ul a:hover {
     margin: 5px;
     cursor: pointer;
   }
+  .contact-btn a {
+    text-decoration: none;
+    color: white;
+  }
   .about-btn {
     width: 100px;
     height: 40px;
@@ -655,6 +659,10 @@ footer .terms ul a:hover {
     font-weight: bold;
     margin: 5px;
     cursor: pointer;
+  }
+  .about-btn a {
+    text-decoration: none;
+    color: white;
   }
   .toDown {
     font-size: 3rem;
