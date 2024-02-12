@@ -38,7 +38,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 5;
+  position: relative;
 }
 header .social-icons ul {
   display: flex;
@@ -51,6 +52,9 @@ header .social-icons ul li {
 header .social-icons ul li a {
   color: white;
   font-size: 1.1rem;
+}
+header .social-icons ul li a:hover {
+  color: #5e17eb;
 }
 header .logo {
   width: 120px;
@@ -169,7 +173,7 @@ header .openMenu {
   color: grey;
 }
 .about-btn:hover {
-  background-color: rgb(193, 193, 193);
+  background-color: rgb(183, 180, 180);
 }
 .about-btn:hover a {
   color: white;
