@@ -175,8 +175,10 @@ header {
     }
 
     &:hover {
-        background: darken(gray, 5);
-        color: white;
+        background-color: rgb(193, 193, 193);
+        a {
+            color: white;
+        }
     }
 }
 

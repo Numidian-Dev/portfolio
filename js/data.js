@@ -72,12 +72,18 @@ const projectData = [
   },
   {
     id: 3,
+    title: "Mag",
+    img: "./styles/assets/project/mag.png",
+    link: "",
+  },
+  {
+    id: 5,
     title: "Space Tourism",
     img: "./styles/assets/project/space-tourism.png",
     link: "https://space-tourism-mu-five.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Dzair History",
     img: "./styles/assets/project/dzair-history.png",
     link: "https://dzairhistory.com/",

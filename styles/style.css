@@ -58,7 +58,7 @@ header .logo {
 header .logo img {
   width: 100%;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
 }
 header .openMenu {
   display: none;
@@ -169,7 +169,9 @@ header .openMenu {
   color: grey;
 }
 .about-btn:hover {
-  background: #737373;
+  background-color: rgb(193, 193, 193);
+}
+.about-btn:hover a {
   color: white;
 }
 
@@ -373,9 +375,9 @@ footer .terms ul a:hover {
   height: 100%;
   border-radius: 10px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
 }
 #project .container-p .project-desci {
   width: 40%;
@@ -430,9 +432,9 @@ footer .terms ul a:hover {
   height: 100%;
   border-radius: 10px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
 }
 #project .all-project-container .closeProject {
   color: white;
@@ -568,9 +570,9 @@ article ul li {
     height: 100%;
     border-radius: 10px;
     -o-object-fit: cover;
-    object-fit: cover;
+       object-fit: cover;
     -o-object-position: center;
-    object-position: center;
+       object-position: center;
   }
   #project .container-p .project-desci {
     width: 40%;
@@ -729,7 +731,7 @@ article ul li {
     height: 100%;
     width: 100%;
     -o-object-fit: contain;
-    object-fit: contain;
+       object-fit: contain;
   }
   #about .container-card .card .title-skill {
     font-size: 1.2rem;
@@ -1075,7 +1077,7 @@ article ul li {
     height: 100%;
     width: 100%;
     -o-object-fit: contain;
-    object-fit: contain;
+       object-fit: contain;
   }
   #about .container-card .card .title-skill {
     font-size: 1.2rem;
@@ -1295,7 +1297,7 @@ article ul li {
     height: 100%;
     width: 100%;
     -o-object-fit: contain;
-    object-fit: contain;
+       object-fit: contain;
   }
   #about .container-card .card .title-skill {
     font-size: 1.2rem;
@@ -1515,7 +1517,7 @@ article ul li {
     height: 100%;
     width: 100%;
     -o-object-fit: contain;
-    object-fit: contain;
+       object-fit: contain;
   }
   #about .container-card .card .title-skill {
     font-size: 1.2rem;
@@ -1616,7 +1618,7 @@ article ul li {
     height: 100%;
     width: 100%;
     -o-object-fit: contain;
-    object-fit: contain;
+       object-fit: contain;
   }
   #about .container-card .card .title-skill {
     font-size: 1.2rem;
@@ -1812,7 +1814,7 @@ article ul li {
     height: 100%;
     width: 100%;
     -o-object-fit: contain;
-    object-fit: contain;
+       object-fit: contain;
   }
   #about .container-card .card .title-skill {
     font-size: 1rem;
@@ -2044,7 +2046,7 @@ article ul li {
     height: 100%;
     width: 100%;
     -o-object-fit: contain;
-    object-fit: contain;
+       object-fit: contain;
   }
   #about .container-card .card .title-skill {
     font-size: 1rem;
@@ -2119,4 +2121,4 @@ article ul li {
   footer .terms ul a {
     color: #575656;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
